@@ -135,18 +135,16 @@ tokio = { version = "1" }
 # was: git = "https://github.com/zed-industries/zed", rev = "876ec5a8a0..."
 gpui_util = { package = "gpui-util-gpui-unofficial", version = "1.7.2" }
 
-gpui = { path = "./crates/gpui/" }
-gpui_platform = { path = "./crates/gpui_platform/" }
-gpui_linux = { path = "./crates/gpui_linux/" }
-gpui_macos = { path = "./crates/gpui_macos/" }
-gpui_windows = { path = "./crates/gpui_windows/" }
-gpui_web = { path = "./crates/gpui_web/" }
-
-gpui_wgpu = { path = "./crates/gpui_wgpu/" }
-
-gpui_macros = { path = "./crates/gpui_macros/" }
-gpui_shared_string = { path = "./crates/gpui_shared_string/" }
-gpui_tokio = { path = "./crates/gpui_tokio/" }
+gpui = { package = "gpui-ce-unofficial-gpui", version = "0.2026.06.23", path = "./crates/gpui/" }
+gpui_platform = { package = "gpui-ce-unofficial-gpui-platform", version = "0.2026.06.23", path = "./crates/gpui_platform/" }
+gpui_linux = { package = "gpui-ce-unofficial-gpui-linux", version = "0.2026.06.23", path = "./crates/gpui_linux/" }
+gpui_macos = { package = "gpui-ce-unofficial-gpui-macos", version = "0.2026.06.23", path = "./crates/gpui_macos/" }
+gpui_windows = { package = "gpui-ce-unofficial-gpui-windows", version = "0.2026.06.23", path = "./crates/gpui_windows/" }
+gpui_web = { package = "gpui-ce-unofficial-gpui-web", version = "0.2026.06.23", path = "./crates/gpui_web/" }
+gpui_wgpu = { package = "gpui-ce-unofficial-gpui-wgpu", version = "0.2026.06.23", path = "./crates/gpui_wgpu/" }
+gpui_macros = { package = "gpui-ce-unofficial-gpui-macros", version = "0.2026.06.23", path = "./crates/gpui_macros/" }
+gpui_shared_string = { package = "gpui-ce-unofficial-gpui-shared-string", version = "0.2026.06.23", path = "./crates/gpui_shared_string/" }
+gpui_tokio = { package = "gpui-ce-unofficial-gpui-tokio", version = "0.2026.06.23", path = "./crates/gpui_tokio/" }
 
 [workspace.dependencies.windows]
 version = "0.61"
